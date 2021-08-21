@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#homeH1{
+    color: rgb(255, 107, 107);
+    margin: 14px 18px;
+}
+
+#dataForm{
+    display: block;
+    margin: 18px auto;
+    max-width: 50%;
+}
+
+#dataForm #item{
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 11px;
+    padding: 3px 5px;
+    margin: 7px 11px;
+    outline: none;
+}
+
+#dataForm button{
+    color: rgb(255, 255, 255);
+    background:cadetblue;
+    margin: 14px;
+    padding: 3px 18px;
+    border-radius: 11px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#dataForm button:hover{
+    color: white;
+    background: rgb(0, 192, 199);
+}
+
+.dataScreen{
+    border: 2px solid rgba(83, 0, 0, 0.603);
+    border-radius: 11px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 34px 18px;
+}
+
+.dataScreen li{
+    margin: 7px 11px;
+    list-style: none;
+    font-size: 1.7rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.dataScreen li:hover{
+    transform: translateY(-2px);
+}

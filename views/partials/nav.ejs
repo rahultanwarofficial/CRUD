@@ -1,0 +1,92 @@
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background: rgb(240, 229, 229);
+    }
+
+    #header{
+        background: white;
+        border-bottom: 2px solid black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .logo{
+        display: block;
+        max-width: 37%;
+        margin: 4px;
+    }
+
+    .logo h1{
+        font-size: 1.9rem;
+        color: grey;
+
+    }
+
+    .logo h1 strong{
+        font-size: 1.65rem;
+        color: black;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 60%;
+        margin: 4px;
+    }
+
+    .nav li{
+        list-style: none;
+        margin: 1px 18px;
+    }
+
+    .nav li a{
+        text-decoration: none;
+        color: rgb(54, 53, 53);
+        font-size: 1.5rem;
+        padding: 3px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav li a:hover{
+        color: brown;
+    }
+
+    .nav .btn{
+        color: cornsilk;
+        background: crimson;
+        font-size: 1.2rem;
+        margin: 1px 7px;
+        padding: 3px 11px;
+        border-radius: 11px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav .btn:hover{
+        color: white;
+        background: rgba(255, 0, 0, 0.726);
+    }
+
+</style>
+
+<div id="header">
+    <div class="logo">
+        <h1>Node<strong>.js</strong></h1>
+    </div>
+    <ul class="nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/signup">Signup</a></li>
+        <button class="btn">Logout</button>
+    </ul>
+</div>
